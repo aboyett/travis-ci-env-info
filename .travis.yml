@@ -1,0 +1,11 @@
+language: minimal
+install: skip
+script:
+- uname -a
+- lsb_release -a
+- cat /proc/cpuinfo
+- free -m
+- dpkg -l
+- echo $PATH
+- ls -1 /usr /bin /sbin /usr/bin /usr/sbin 
+
